@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name "viewport" content="width-device-width">
+
+		<title>
+			Vindyasri Associates Pvt. Ltd.
+		</title>
+		<link href="https://fonts.googleapis.com/css?family=Underdog" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" href="../../script.js"></script>
+
+
+
+	</head>
+<body>
+
+
+
+	<div id="Name">
+		<h1 style="text-align: center; font-family: 'Underdog', cursive; letter-spacing: 5px; font-size: 50px;  padding: 0px 0px;">Vindyasri</h1>
+		
+	</div>
+
+
+ 	<!-- <header>
+ 		
+ 		<div class="container">
+
+ 			<div id="branding">
+ 				<h1><span class ="highlight">V</span>indyasri</h1>
+ 			</div>
+
+ 			<nav>
+ 				<ul>
+ 					<li class="current"><a href="index.html">Home</a></li>
+ 					<li><a href="about.html">about</a></li>
+ 					<li><a href="services.html">services</a></li>
+ 					<li><a href="OurTeam.html">OUR TEAM</a></li>
+                
+ 					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+ 				</ul>
+ 			</nav>	
+ 		</div>
+ 	</header>
+ -->
+
+
+<div class="topnav" id="myTopnav">
+
+ 			 
+ 		
+   
+  <a href="index.html" class="active">Home</a>
+  <a href="html/services.html">Services</a>
+  <a href="html/about.html">About</a>
+  <a href="html/OurTeam.html">OUr team</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+
+
+
+ 	<section id="showcase">
+ 		<div class="container">
+ 			<br>
+ 			<br><br><br>
+ 			<p> “We aspire to be the leading Infrastructure Planning, Engineering, Social
+and Environment Consultants in this region by providing high value
+added, high quality, and cutting edge services to our clients, through our
+wide pool of experts, thus helping create value for the society.”
+Reaching for the stars…Together! </p>
+ 		</div>
+
+
+
+
+
+
+
+ 		
+ 	</section>
+ 	<!-- <div class="gallery"> -->
+ 		<h2 style="font-style: italic; text-align:center ; background: #efefef;">Gallery</h2>
+<div class="slide-slide">
+<div class="container1">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="img/Bridge work.jpg" style="width:auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="img/Foot over bridge.jpg" style="width:auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="img/land-Acquisition-work.jpg" style="width:auto;">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="img/plate-load-test.jpg" style="width:auto;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="img/Rail Over Bridge.jpg" style="width:auto;">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="img/Road Marking work.jpg" style="width:auto;">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/Bridge work.jpg" style="width:100%" onclick="currentSlide(1)" alt="Bridge work">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/Foot over bridge.jpg" style="width:100%" onclick="currentSlide(2)" alt="Foot over bridge">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/land-Acquisition-work.jpg" style="width:100%" onclick="currentSlide(3)" alt="land-Acquisition">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/plate-load-test.jpg" style="width:100%" onclick="currentSlide(4)" alt="plate-load-test">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/Rail Over Bridge.jpg" style="width:100%" onclick="currentSlide(5)" alt="Rail Over Bridge">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="img/Road Marking work.jpg" style="width:100%" onclick="currentSlide(6)" alt="Road Marking work">
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="boxes">
+ 		<h1 style="background: #efefef;">OUR CLIENT</h1>
+ 		<div class="container">
+ 			<div class="box">
+ 				<img src="./img/road_const.jpg">
+ 				
+ 			</div>
+
+ 			<div class="box">
+ 				<img src="./img/NHA.png">
+ 				
+ 				
+ 			</div>
+
+ 			
+ 			<div class="box">
+ 				\<img src="./img/Seal_of_Bihar.png">
+ 				
+ 				
+ 			</div>
+
+ 			<div class="box">
+ 				<img src="./img/South-Eastern-Railway.jpg">
+ 				
+ 			</div>
+
+ 		</div>
+
+
+ 		
+ 	</section>
+
+
+ 	<footer>
+ 		
+ 
+
+ 	<div class="footer-main-div">
+ 		 <h2>Contact us</h2>
+ 		 <p> Corporate Office: M-9, Ashiana Nagar Phase – I<br>
+
+              P.O.-Ashiana Nagar, Patna-800025,<br>
+
+
+ Contact No T: +91-612-2580303/Mob. 08340121374, 09644532248<br>s
+  Email: vsapl17@gmail.com </p>
+ 		 <div class="footer-social-icons">
+ 		 	<ul>
+ 		 		<li><a href="#" target="blank"><i class="fa fa-facebook"></i></a></li>
+ 		 		<li><a href="#" target="blank"><i class="fa fa-twitter"></i></a></li>
+ 		 		<li><a href="#" target="blank"><i class="fa fa-youtube"></i></a></li>
+ 		 		<li><a href="#" target="blank"><i class="fa fa-google-plus"></i></a></li>
+ 		 	</ul>
+ 		 </div>
+
+ 	
+   </div>
+  </footer>
+ 	<div class="footer-bottom">
+ 		<p>Designed by: <a href="https://www.facebook.com/imavi007">Avinash</a></p>
+ 	</div>
+
+ 	
+
+
+
+
+
+
+</body>
+</html>
